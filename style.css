@@ -1,0 +1,46 @@
+#icone {
+    height: 50px;
+}
+
+#fleche {
+    height: 50px;
+}
+
+a {
+    color: gray;
+    text-align: center;
+}
+
+.display-3 {
+    font-size: 40px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.lien {
+    text-align: center;
+}
+
+.bio {
+    margin: 20px;
+    color: white;
+}
+
+body {
+    background-image: url(images/06.jpg);
+}
+
+.navigation {
+   margin: 20px; 
+}
+
+.cadre {
+    border: 2px solid black;
+    color: white;
+}
+
+.form {
+    margin: 20px;
+}

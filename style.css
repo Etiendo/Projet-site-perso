@@ -66,8 +66,8 @@ header {
     color: white;
 }
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+#article {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: solid grey 1px
 }

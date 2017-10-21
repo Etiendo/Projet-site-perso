@@ -5,131 +5,93 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <title>Ma présentation</title>
 </head>
 
 <body>
 
-    <header>
-
-        <div class="navigation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-1">
-                        <img src="images/simplonco.png" id="icone">
-                    </div>
-                    <div class="col-5">
-                    </div>
-                    <div class="col-6">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/simplonco.png" id="icone">
+                </div>
+                <div class="col-6">
+                </div>
+                <div class="col-5">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div class="navbar-nav">
-                                    <a class="nav-item nav-link active" href="#">Accueil<span class="sr-only">(current)</span></a>
-                                    <a class="nav-item nav-link" href="#">Mon CV</a>
-                                    <a class="nav-item nav-link" href="#">Mes compétences</a>
-                                    <a class="nav-item nav-link disabled" href="#">Mes projets</a>
-                                </div>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active" href="#">Accueil<span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="CV.pdf">Mon CV</a>
+                                <a class="nav-item nav-link" href="#">Mes compétences</a>
+                                <a class="nav-item nav-link" href="#">Mes projets</a>
+
                             </div>
-                        </nav>
-                    </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
+    </div>
 
+
+    <header>
         <div class="titre-premier">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="jumbotron">
-                            <div class="container">
-                                <h1 class="display-3">Etienne Quancard</h1>
-                                <p class="lead">Un développeur passionné pour des projets innovants</p>
-                            </div>
-                        </div>
+                    <div class="col-2">
+                    </div>
+                    <div class="col-10">
+                        <h1 class="titre">Etienne Quancard</h1>
+                        <p class="lead">Un développeur passionné pour des projets innovants</p>
                     </div>
                 </div>
             </div>
         </div>
+    </header>
 
+    <content class=article>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="lien">
-                        <img src="images/fleche.png" id="fleche">
-                    </div>
+                    <h2>Article 1</h2>
                 </div>
             </div>
         </div>
+    </content>
 
-        <div class="bio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="lien">
-                            <a href="#">Cliquez ici pour en savoir plus !</a>
-                        </div>
-                    </div>
+    <content class=article>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Article 1</h2>
                 </div>
             </div>
         </div>
+    </content>
 
-        <div class="cadre">
-            <div class="portofolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="lien">
-                                <h2>Découvrez mon portofolio à venir !</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="Abo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="lien">
-                                <h2>Abonnez-vous !</h2>
-                            </div>
-                        </div>
-                    </div>
+    <content class=article>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Article 1</h2>
                 </div>
             </div>
         </div>
+    </content>
 
-        <!--<div class="form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                    </div>
-                    <div class="col-4">
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Envoyer</button>
-                        </form>
-
-                    </div>
-                </div>
-                <div class="col-4">
-                </div>
-            </div>
-        </div>-->
-
-        <div>
-            <form action="https://formspree.io/etienne_quancard@hotmail.fr" method="post">
-                Votre nom : <input type="text" name="name" value=""> Votre message <textarea name="message"></textarea>
-                <input type="submit" value="Envoyer">
-            </form>
-        </div>
-
-    </header>
+    <div class="contact">
+        <p>Me contacter</p>
+        <form action="https://formspree.io/etienne_quancard@hotmail.fr" method="post">
+            Votre nom : <input type="text" name="name" value=""> Votre message <textarea name="message"></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

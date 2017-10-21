@@ -1,8 +1,16 @@
-#icone {
-    height: 50px;
+* {
+    font-family: 'Inconsolata', monospace;
 }
 
-#fleche {
+#navbarNavAltMarkup {
+    background-color: white; 
+}
+
+.navbar-expand-lg {
+    padding: 0;
+}
+
+#icone {
     height: 50px;
 }
 
@@ -23,24 +31,43 @@ a {
     text-align: center;
 }
 
-.bio {
-    margin: 20px;
-    color: white;
-}
-
-body {
-    background-image: url(images/06.jpg);
-}
 
 .navigation {
-   margin: 20px; 
-}
-
-.cadre {
-    border: 2px solid black;
-    color: white;
+    margin: 20px;
 }
 
 .form {
     margin: 20px;
+}
+
+header {
+    display: flex;
+    background-image: url(images/06.jpg);
+    height: 400px;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.navigation {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.navbar-nav {
+    color: black;
+}
+
+.titre {
+    color: white;
+    font-size: 3em;
+}
+
+.lead {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
